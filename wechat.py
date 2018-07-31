@@ -99,4 +99,4 @@ if __name__ == '__main__':
     rows, columns = calculate_align_way(len(image_files), force_align=True)
 
     # 执行拼接操作
-    join_images(image_files, rows, columns, 64, 64, 'result.png')
+    join_images(image_files, rows, columns, 64, 64, 'joined.png')
